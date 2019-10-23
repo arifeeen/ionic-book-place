@@ -17,7 +17,7 @@ export class EditOfferPage implements OnInit {
         return;
       }
       this.offerId = paramMap.get('offerId');
-      console.log('edit offer',this.offerId);
+      console.log('edit offer', this.offerId);
     });
   }
 
